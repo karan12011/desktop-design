@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #BDBDBD;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.wrapper {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #141519;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 775px;
+  background-color: #202731;
+  border-radius: 20px;
+  padding: 106px 137px;
+}
+
+.icon {
+  background-color: #272E38;
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 50px 0px 50px 4px;
+}
+
+p {
+  margin: 0 13px 50px 5px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.circle {
+  background-color: #262F38;
+  font-size: 24px;
+  line-height: 34px;
+  padding: 14px 23px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+a {
+  background-color: #FC7613;
+  color: #FFF;
+  padding: 19px 213px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .3s;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+.select {
+  background-color: #7C8898;
+}
+
+.circle:hover {
+  background-color: #FF750E;
+}
+
+a:hover {
+  background-color: transparent;
+  border: 2px solid #FF750E;
+  color: #FF750E;
+}
+
+a:active {
+  color: #FF750E;
+  background-color: #FFF;
+}
